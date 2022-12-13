@@ -465,26 +465,17 @@
 
     <profiles>
         <profile>
-            <id>H2</id>
+            <id>MYSQL</id>
             <activation>
                 <activeByDefault>true</activeByDefault>
             </activation>
             <properties>
-                <db.script>h2</db.script>
-                <jpa.database>H2</jpa.database>
-                <jdbc.driverClassName>org.h2.Driver</jdbc.driverClassName>
-                <jdbc.url>jdbc:h2:mem:petclinic</jdbc.url>
-                <jdbc.username>sa</jdbc.username>
-                <jdbc.password/>
+                <jpa.database>MYSQL</jpa.database>
+                <jdbc.driverClassName>com.mysql.cj.jdbc.Driver</jdbc.driverClassName>
+                <jdbc.url>jdbc:mysql://34.95.38.223:3306/petclinic?useUnicode=true</jdbc.url>
+                <jdbc.username>petclinic</jdbc.username>
+                <jdbc.password>petclinic<jdbc.password/>
             </properties>
-            <dependencies>
-                <dependency>
-                    <groupId>com.h2database</groupId>
-                    <artifactId>h2</artifactId>
-                    <version>${h2database.version}</version>
-                    <scope>runtime</scope>
-                </dependency>
-            </dependencies>
         </profile>
         <profile>
             <id>HSQLDB</id>
