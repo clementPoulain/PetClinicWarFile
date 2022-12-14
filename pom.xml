@@ -474,8 +474,8 @@
                 <jpa.database>MYSQL</jpa.database>
                 <jdbc.driverClassName>com.mysql.cj.jdbc.Driver</jdbc.driverClassName>
                 <jdbc.url>jdbc:mysql://34.152.40.157:3306/petclinic?useUnicode=true</jdbc.url>
-                <jdbc.username>petclinic</jdbc.username>
-                <jdbc.password>petclinic</jdbc.password>
+                <jdbc.username>poei_binome3</jdbc.username>
+                <jdbc.password>petshop</jdbc.password>
             </properties>
             <dependencies>
                 <dependency>
@@ -512,8 +512,8 @@
                 <jpa.database>MYSQL</jpa.database>
                 <jdbc.driverClassName>com.mysql.cj.jdbc.Driver</jdbc.driverClassName>
                 <jdbc.url>jdbc:mysql://localhost:3306/petclinic?useUnicode=true</jdbc.url>
-                <jdbc.username>petclinic</jdbc.username>
-                <jdbc.password>petclinic</jdbc.password>
+                <jdbc.username>poei_binome3</jdbc.username>
+                <jdbc.password>petshop</jdbc.password>
             </properties>
             <dependencies>
                 <dependency>
